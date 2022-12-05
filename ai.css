@@ -3,7 +3,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  font-size: 2.3rem;
+  font-size: 1rem;
 }
 
 .container {
@@ -19,33 +19,36 @@
 .judul{
   color: #ea2865;
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 1.7rem;
 }
 
 .content{
+  width: 100%;
+  padding: 0 30%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 
 .content1{
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .content2{
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .salam{
   display: flex;
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 50px;
   width: 100%;
   padding: 0 30%;
   box-sizing: border-box;
 }
 
 .salam .judul{
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 400px){
@@ -58,6 +61,11 @@
   .container{
     padding: 10px;
     box-sizing: border-box;
+  }
+
+  .content{
+  padding: 0 5%;
+
   }
 
   .content1{
