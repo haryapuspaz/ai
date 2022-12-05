@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  font-size: 2.3rem;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(100deg, #bdd1f0, #fec8dd);
+}
+
+.judul{
+  color: #ea2865;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.content1{
+  margin-top: 100px;
+}
+
+.content2{
+  margin-top: 100px;
+}
+
+.salam{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  width: 100%;
+  padding: 0 30%;
+  box-sizing: border-box;
+}
+
+.salam .judul{
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 400px){
+  *{
+    font-size: 1.2rem;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .container{
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .content1{
+    margin-top: 30px;
+  }
+  
+  .content2{
+    margin-top: 30px;
+  }
+
+  .salam{
+    margin-top: 50px;
+  }
+
+  .judul{
+    font-size: 2rem;
+  }
+
+  .salam{
+  padding: 0 5%;
+  }
+
+  .salam .judul{
+    margin-bottom: 20px;
+  }
+}
